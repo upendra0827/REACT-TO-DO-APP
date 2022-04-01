@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_div {
+  display: flex;
+  justify-content: center;
+  background: cadetblue;
+  min-height: 100vh;
+}
+
+input {
+  padding: 0.75rem;
+  border: none;
+  border-bottom: 2px solid red;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 10px;
+  border: 1px solid rebeccapurple;
+  margin: 0.5rem;
+  /* color: ; */
+}
+
+button:hover {
+  cursor: pointer;
+  background: black;
+  color: turquoise;
+}
+.add_todo {
+  padding: 00.75rem;
+  margin-left: 1rem; 
+  background: whitesmoke;
+  border: none; 
+}
+
+.add_todo:hover {
+  cursor: pointer;
+  background: green;
+}
+
+li {
+  margin: 1rem;
+}
